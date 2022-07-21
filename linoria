@@ -1,3 +1,5 @@
+--// yea
+
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
@@ -209,7 +211,7 @@ function Library:MouseIsOverOpenedFrame()
         local AbsPos, AbsSize = Frame.AbsolutePosition, Frame.AbsoluteSize;
 
         if Mouse.X >= AbsPos.X and Mouse.X <= AbsPos.X + AbsSize.X
-            and Mouse.Y >= AbsPos.Y and .Y <= AbsPos.Y + AbsSize.Y then
+            and Mouse.Y >= AbsPos.Y and Mouse.Y <= AbsPos.Y + AbsSize.Y then
 
             return true;
         end;
